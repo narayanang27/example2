@@ -1,0 +1,105 @@
+body {
+    /*background: #ff920a;
+    background: -moz-linear-gradient(top, #FF3A53 0%, #ff920a 20%, #ffaf4b 47%, #ffffff 93%, #2BB7C4 95%, #075957 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FF3A53), color-stop(20%, #ff920a), color-stop(47%, #ffaf4b), color-stop(93%, #ffffff), color-stop(95%, #2BB7C4), color-stop(100%, #075957));
+    background: -webkit-linear-gradient(top, #FF3A53 0%, #ff920a 20%, #ffaf4b 47%, #ffffff 93%, #2BB7C4 95%, #075957 100%);
+    background: -o-linear-gradient(top, #FF3A53 0%, #ff920a 20%, #ffaf4b 47%, #ffffff 93%, #2BB7C4 95%, #075957 100%);
+    background: -ms-linear-gradient(top, #FF3A53 0%, #ff920a 20%, #ffaf4b 47%, #ffffff 93%, #2BB7C4 95%, #075957 100%);
+    background: linear-gradient(to bottom, #FF3A53 0%, #ff920a 20%, #ffaf4b 47%, #ffffff 93%, #2BB7C4 95%, #075957 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff920a', endColorstr='#075957', GradientType=0);*/
+	background: #F4F4F4;
+	color:#676767;
+	font-family: 'Open Sans',sans-serif;
+}
+.container-1{	
+	background: #F4F4F4;
+	color:#676767;
+}
+.container-2 .row{	
+	padding-top:10px;
+	padding-bottom: 10px;
+	margin-top:10px;
+}
+header{
+    background: #cf0404;
+    background: -moz-linear-gradient(top, #cf0404 0%, #ff3019 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cf0404), color-stop(100%, #ff3019));
+    background: -webkit-linear-gradient(top, #cf0404 0%, #ff3019 100%);
+    background: -o-linear-gradient(top, #cf0404 0%, #ff3019 100%);
+    background: -ms-linear-gradient(top, #cf0404 0%, #ff3019 100%);
+    background: linear-gradient(to bottom, #cf0404 0%, #ff3019 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cf0404', endColorstr='#ff3019', GradientType=0);
+}
+
+div.top-div {
+    background: transparent;
+}
+.navbar{background: #DC848C; border: 1px solid #DC848C; margin-bottom:0px; border-radius: 0px;}
+.jumbotron {
+    background: #fff;
+    border:0px;
+    background: rgba(255, 255, 255, 0.5);
+	margin:10px;
+}
+div.middle-div {
+   /* background: #1B608A;
+    background: -moz-linear-gradient(top, #1B608A 0%, #2BB7C4 20%, #2BB7C4 90%, #075957 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1B608A), color-stop(20%, #2BB7C4), color-stop(90%, #2BB7C4), color-stop(100%, #075957));
+    background: -webkit-linear-gradient(top, #1B608A 0%, #2BB7C4 20%,  #2BB7C4 90%, #075957 100%);
+    background: -o-linear-gradient(top, #1B608A 0%,  #2BB7C4 20%, #2BB7C4 90%, #075957 100%);
+    background: -ms-linear-gradient(top, #1B608A 0%,  #2BB7C4 20%, #2BB7C4 90%, #075957 100%);
+    background: linear-gradient(to bottom, #1B608A 0%,  #2BB7C4 20%, #2BB7C4 90%, #075957 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1B608A', endColorstr='#075957', GradientType=0);*/
+	background: #62C2E8;
+	color:#fff;
+}
+/*
+@media (max-width: 767px) {
+	div.middle-div {
+		-webkit-border-top-left-radius: 40% 80px;
+		-webkit-border-top-right-radius: 40% 80px;
+		-moz-border-radius-topleft: 40% 80px;
+		-moz-border-radius-topright: 40% 80px;
+		border-top-left-radius: 0% 0px;
+		border-top-right-radius: 150% 750px;
+	}
+}
+*/
+div.float-left {
+    width:27%;
+    margin:2.5% 2.5% 0px 2.5%;
+    height:100px;
+    float:left;
+    border:1px solid #f1f1f1;
+    background:#fff;
+    background: rgba(255, 255, 255, 0.5);
+}
+span.clear-float {
+    clear:both;
+    float:none;
+}
+div.float-left:hover {
+    background:#fff;
+    background: rgba(255, 255, 255, 1);
+}
+a, a:hover, a:focus {
+	color: #88C9CF;
+}
+.navbar-default .navbar-brand{color: #fff;}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #8B4D5A;
+}
+.navbar-default .navbar-nav>li>a{color: #8B4D5A;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	color: #F4F4F4;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{color: #333;  background: rgba(255, 255, 255, 0.8);}
+.navbar-default .navbar-toggle{border: 0px;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus { background: rgba(255, 255, 255, 0.8);}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{color:#333;}
+footer.container{
+
+}

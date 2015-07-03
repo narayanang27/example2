@@ -1,0 +1,7 @@
+.container{margin:10px auto;}
+.carousel {
+  padding:60px; 
+  background-color: #7d7e7d;
+  border:1px solid transparent;
+  border-radius: 5px;
+}
