@@ -11,7 +11,7 @@
 
 
     <title>Web UI Kit</title>
-    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700,400">
+    <link href='http://fonts.googleapis.com/css?family=Martel+Sans' rel='stylesheet' type='text/css'>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
@@ -41,6 +41,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
@@ -50,27 +51,29 @@
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                 <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-2">
-                    <ul class="nav navbar-nav">
-                         <li>
-                         <form class="navbar-form navbar-right" role="search">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search for...">
-                        <span class="input-group-btn">
-        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
-      </span>
-                    </div>
-                    <!-- /input-group -->
-                </form>
-
+                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-2">
+                    <ul class="nav navbar-nav navbar-right navbar-search">
+                        <li>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <form class="navbar-form navbar-right" role="search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search for...">
+                                    <span class="input-group-btn">
+        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span>
+                                    </button>
+                                    </span>
+                                </div>
+                                <!-- /input-group -->
+                            </form>
                         </li>
+
                     </ul>
 
                 </div>
-                
+
                 <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="#">Home</a>
+                        <li class="active"><a href="#">Home</a>
                         </li>
                         <li><a href="#">Service</a>
                         </li>
@@ -79,10 +82,10 @@
                         <li><a href="#">Contact</a>
                         </li>
                     </ul>
-
                 </div>
-                
-               
+
+
+
                 <!-- /.navbar-collapse -->
             </div>
             <!-- /.container-fluid -->
@@ -103,13 +106,13 @@
                 <div class="item active">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-xs-12 carousel-info-text">
                                 <h1>RANDOM UI KIT</h1>
                                 <p>Use data attributes to easily control the position of the carousel. data-slide accepts the keywords prev or next, which alters the slide position relative to its current position. Alternatively, use data-slide-to to pass a raw slide index to the carousel data-slide-to="2", which shifts the slide position to a particular index beginning with 0.</p>
-                                <button class="btn btn-default btn-lg" type="button">Get Started</button>
-                                <button class="btn btn-default btn-lg" type="button">Find More</button>
+                                <button class="btn btn-orange btn-lg" type="button">Get Started</button>
+                                <button class="btn btn-primary btn-lg" type="button">Find More</button>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-xs-12">
                                 <img src="img/photo1.jpg" class="img-responsive" />
                             </div>
                         </div>
@@ -118,13 +121,13 @@
                 <div class="item">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-xs-12 carousel-info-text">
                                 <h1>RANDOM UI KIT</h1>
                                 <p>Use data attributes to easily control the position of the carousel. data-slide accepts the keywords prev or next, which alters the slide position relative to its current position. Alternatively, use data-slide-to to pass a raw slide index to the carousel data-slide-to="2", which shifts the slide position to a particular index beginning with 0.</p>
-                                <button class="btn btn-default btn-lg" type="button">Get Started</button>
-                                <button class="btn btn-default btn-lg" type="button">Find More</button>
+                                <button class="btn btn-orange btn-lg" type="button">Get Started</button>
+                                <button class="btn btn-primary btn-lg" type="button">Find More</button>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-xs-12">
                                 <img src="img/photo2.jpg" class="img-responsive" />
                             </div>
                         </div>
@@ -133,27 +136,27 @@
                 <div class="item">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-xs-12 carousel-info-text">
                                 <h1>RANDOM UI KIT</h1>
                                 <p>Use data attributes to easily control the position of the carousel. data-slide accepts the keywords prev or next, which alters the slide position relative to its current position. Alternatively, use data-slide-to to pass a raw slide index to the carousel data-slide-to="2", which shifts the slide position to a particular index beginning with 0.</p>
-                                <button class="btn btn-default btn-lg" type="button">Get Started</button>
-                                <button class="btn btn-default btn-lg" type="button">Find More</button>
+                                <button class="btn btn-orange btn-lg" type="button">Get Started</button>
+                                <button class="btn btn-primary btn-lg" type="button">Find More</button>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-xs-12">
                                 <img src="img/photo3.jpg" class="img-responsive" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
     <!--carousel part END-->
@@ -163,21 +166,21 @@
         <div class="row">
             <div class="col-md-5">
                 <!--registration panel-->
-                <div class="panel panel-default">
+                <div class="panel panel-blue">
                     <div class="panel-heading text-center">
                         <span class="lead">Register</span>
                     </div>
                     <div class="panel-body">
                         <div class="media">
                             <div class="media-left">
-                                <div style="width:100px; height:100px; background:#f1f1f1;"></div>
-                                <a href="#">Upload </a> a Photo
+                                <div class="photo-placeholder"></div>
+                                <a href="#" class="small">Upload </a> a Photo
                             </div>
                             <div class="media-body">
                                 <form>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Email address</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                                        <input type="email" class="form-control" placeholder="Email">
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputPassword1">Password</label>
@@ -196,7 +199,7 @@
                                             <input type="checkbox">Check me for Newsletter
                                         </label>
                                     </div>
-                                    <button type="submit" class="btn btn-default btn-lg">Submit</button>
+                                    <button type="submit" class="btn btn-default">Submit</button>
                                 </form>
                             </div>
                         </div>
@@ -206,53 +209,43 @@
 
                 <!--payment panel-->
 
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <span class="lead">Credit Card</span>
-                            </div>
-                            <div class="col-md-6 text-right">
-                                <span class="fa fa-cc-visa fa-2x"></span>
-                                <span class="fa fa-cc-mastercard fa-2x"></span>
-                                <span class="fa fa-cc-discover fa-2x"></span>
-                                <span class="fa fa-cc-amex fa-2x"></span>
-                            </div>
-                        </div>
+                <div class="panel panel-blue">
+                    <div class="panel-heading text-left">
+                        <span class="lead">Credit Card</span>
                     </div>
                     <div class="panel-body">
                         <form>
                             <div class="row">
-                                <div class="col-md-8">
+                                <div class="col-xs-8">
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Credit Card Number</label>
 
-                                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="XXXX XXXX XXXX XXXX">
+                                        <input type="text" class="form-control" placeholder="XXXX XXXX XXXX XXXX">
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-xs-4">
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">CCV</label>
                                         <div class="form-inline">
                                             <div class="form-group">
-                                                <input type="text" maxlength="3" size="4" class="form-control" id="exampleInputEmail1" placeholder="XXX">
+                                                <input type="text" maxlength="3" size="4" class="form-control" placeholder="XXX">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-8">
+                                <div class="col-xs-8">
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Expiry Date</label>
-                                        <div class="form-inline">
+                                        <div class="form-inline form-inline-xs">
                                             <div class="form-group">
-                                                <input type="text" maxlength="2" size="4" class="form-control" id="exampleInputEmail1" placeholder="Month">
-                                                <input type="text" maxlength="4" size="4" class="form-control" id="exampleInputEmail1" placeholder="Year">
+                                                <input type="text" maxlength="2" size="4" class="form-control" placeholder="Month">
+                                                <input type="text" maxlength="4" size="4" class="form-control" placeholder="Year">
                                             </div>
                                         </div>
 
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-xs-4">
                                     <label for="exampleInputEmail1"><span class="fa fa-lock"></span> Secure</label>
                                     <button type="submit" class="btn btn-default">Submit</button>
                                 </div>
@@ -261,52 +254,115 @@
 
                         </form>
                     </div>
+                    <div class="panel-footer">
+                        <div class="row">
+                            <div class="col-xs-12 text-right">
+                                <span class="fa fa-cc-visa fa-2x"></span>
+                                <span class="fa fa-cc-mastercard fa-2x"></span>
+                                <span class="fa fa-cc-discover fa-2x"></span>
+                                <span class="fa fa-cc-amex fa-2x"></span>	
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
                 <!--payment panel ends-->
-                
-                 <!--shopping cart panel-->
 
-                        <ul class="list-group">
-                           <li class="list-group-item text-center"><span class="lead">My Shopping Cart</span></li>
-                            <li class="list-group-item">
-                            <div class="media">
-                                            <div class="media-left">
-                                                <a href="#">
-                                                    <img alt="64x64" data-src="holder.js/64x64" class="media-object" style="width: 64px; height: 64px;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNGU1NmY0Yzc2OSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE0ZTU2ZjRjNzY5Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxNCIgeT0iMzYuNSI+NjR4NjQ8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true">
-                                                </a>
-                                            </div>
-                                            <div class="media-body">
-                                                <strong>Cras sit amet nibh libero, in gravida nulla</strong>
-                                                <p class="small"> <span class="text-muted">4th July 2015</span> <span class="text-warning">20 comments</span></p>
-                                            </div>
-                                            <div class="media-right">
-                                               <div class="row">
-                                                   <div class="form-inline">
-                                            <div class="form-group">
-                                                <input type="text" maxlength="3" size="4" class="form-control" id="exampleInputEmail1" placeholder="XXX">
-                                            </div>
-                                        </div>
-                                               </div>
-                                                
-                                            </div>
-                                        </div>
-                            </li>
-                            <li class="list-group-item">
-                                <button type="submit" class="btn btn-default btn-block">Sign Up Now!</button>
-                            </li>
-                        </ul>
-                    
+                <!--shopping cart panel-->
+
+                <ul class="list-group list-blue">
+                    <li class="list-group-item text-center list-heading"><span class="lead">My Shopping Cart</span>
+                    </li>
+
+                    <li class="list-group-item">
+                        <table class="table">
+                            <thead>
+                                <tr class="primary">
+                                    <th>
+                                        &nbsp;
+                                    </th>
+                                    <th>
+                                        Product
+                                    </th>
+                                    <th>
+                                        Quantity
+                                    </th>
+                                    <th>
+                                        Price
+                                    </th>
+                                    <th>
+                                        &nbsp;
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="no-cell-border">
+                                    <th scope="row">
+                                        <img alt="64x64" data-src="holder.js/64x64" class="media-object" style="width: 64px; height: 64px;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNGU1NmY0Yzc2OSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE0ZTU2ZjRjNzY5Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxNCIgeT0iMzYuNSI+NjR4NjQ8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true">
+                                    </th>
+                                    <td>
+                                        <strong>Cras sit amet nibh libero, in gravida nulla</strong>
+                                    </td>
+                                    <td>
+                                        <input type="text" maxlength="3" size="4" class="form-control" value="3">
+                                    </td>
+                                    <td>$10.00</td>
+                                    <td><span class="glyphicon glyphicon-remove-sign text-danger"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <img alt="64x64" data-src="holder.js/64x64" class="media-object" style="width: 64px; height: 64px;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNGU1NmY0Yzc2OSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE0ZTU2ZjRjNzY5Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxNCIgeT0iMzYuNSI+NjR4NjQ8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true">
+                                    </th>
+                                    <td>
+                                        <strong>Cras sit amet nibh libero, in gravida nulla</strong>
+                                    </td>
+                                    <td>
+                                        <input type="text" maxlength="3" size="4" class="form-control" value="3">
+                                    </td>
+                                    <td>$10.00</td>
+                                    <td><span class="glyphicon glyphicon-remove-sign text-danger"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <img alt="64x64" data-src="holder.js/64x64" class="media-object" style="width: 64px; height: 64px;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNGU1NmY0Yzc2OSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE0ZTU2ZjRjNzY5Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxNCIgeT0iMzYuNSI+NjR4NjQ8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true">
+                                    </th>
+                                    <td>
+                                        <strong>Cras sit amet nibh libero, in gravida nulla</strong>
+                                    </td>
+                                    <td>
+                                        <input type="text" maxlength="3" size="4" class="form-control" value="3">
+                                    </td>
+                                    <td>$10.00</td>
+                                    <td><span class="glyphicon glyphicon-remove-sign text-danger"></span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <button type="button" class="btn btn-grey">Continue Shopping</button>
+                            </div>
+                            <div class="col-xs-6 text-right">
+                                <button type="submit" class="btn btn-orange">Checkout</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
                 <!--shopping cart panel ends-->
-                
-                
+
+
             </div>
             <div class="col-md-7">
 
                 <div class="row">
                     <!--login panel-->
                     <div class="col-md-6">
-                        <div class="panel panel-default">
+                        <div class="panel panel-blue">
                             <div class="panel-heading text-center">
                                 <span class="lead">Login</span>
                             </div>
@@ -314,7 +370,7 @@
 
                                 <form>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="User name">
+                                        <input type="text" class="form-control" placeholder="User name">
                                     </div>
                                     <div class="form-group">
                                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
@@ -325,7 +381,7 @@
                                             <input type="checkbox">Remember Me?
                                         </label>
                                     </div>
-                                    <button type="submit" class="btn btn-default btn-lg pull-right">Login</button>
+                                    <button type="submit" class="btn btn-default pull-right">Login</button>
                                 </form>
 
                             </div>
@@ -333,19 +389,45 @@
                         <!--login panel ENDS-->
 
                         <!--follow panel-->
-                        <div class="panel panel-default">
+                        <div class="panel panel-blue">
                             <div class="panel-heading text-center">
                                 <span class="lead">Connect</span>
                             </div>
                             <div class="panel-body text-center">
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-default btn-block"> <span class="fa fa-google"></span> Connect via Google</button>
+
+                                    <button type="submit" class="btn btn-google btn-block">
+
+                                        <span class="col-md-1">
+                                    		<span class="fa fa-google-plus"></span> 
+                                        </span>
+                                        <span class="col-md-10">
+                                    		Connect via Google
+                                    	</span>
+
+                                    </button>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-default btn-block"> <span class="fa fa-facebook"></span> Connect via Facebook</button>
+
+                                    <button type="submit" class="btn btn-facebook btn-block">
+                                        <span class="col-md-1">
+                                    		<span class="fa fa-facebook"></span>
+                                        </span>
+                                        <span class="col-md-10">
+                                    		Connect via Facebook
+                                    </span>
+                                    </button>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-default btn-block"> <span class="fa fa-twitter"></span> Connect via Twitter</button>
+                                    <button type="submit" class="btn btn-twitter btn-block">
+                                        <span class="col-md-1">
+                                    		<span class="fa fa-twitter"></span>
+                                        </span>
+                                        <span class="col-md-10">
+                                    		Connect via Twitter
+                                    </span>
+                                    </button>
+
                                 </div>
                             </div>
 
@@ -353,22 +435,32 @@
                         <!--follow panel ENDS-->
 
                         <!--subscribe panel-->
-
-                        <div class="panel panel-default">
+                        <div class="panel panel-blue">
                             <div class="panel-body">
-                                <h4 class="text-center">Newsletter</h4>
-                                <p class="text-center">Enter your email to subscribe</p>
+                                <h4 class="text-center">Newsletter Subscribe</h4>
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Your Email ID">
                                     <span class="input-group-btn">
-        <button class="btn btn-default btn-primary" type="button">Subscribe</button>
-      </span>
+                                    	<button class="btn btn-orange" type="button">Subscribe</button>
+                                    </span>
                                 </div>
                                 <!-- /input-group -->
 
                             </div>
                         </div>
                         <!--subscribe panel ENDS-->
+
+                        <!--timer panel-->
+                        <div class="row panel-timer">
+                            <div class="col-xs-4">
+                                <span class="glyphicon glyphicon-time"></span>
+                            </div>
+                            <div class="col-xs-8">
+                                <h1>11:45</h1>
+                                <h5>January 01, 2015 </h5>
+                            </div>
+                        </div>
+                        <!--timer panel ENDS-->
 
                     </div>
 
@@ -377,23 +469,26 @@
 
                     <!--follow panel-->
                     <div class="col-md-6">
-                        <div class="panel panel-default">
-                            <div class="panel-heading text-center" style="height:100px;">
-                                <h3 class="pull-left" style="width:100%;"><div style="width:120px; height:120px; border-radius:50%; border:1px solid #f1f1f1; background:#fff; margin:0 auto;"></div></h3>
+                        <div class="panel panel-blue follow-panel">
+                            <div class="panel-heading text-center">
+                                <h3 class="pull-left profile-photo"><div></div></h3>
                             </div>
                             <div class="panel-body text-center">
                                 <h4>My profile</h4>
-                                <p class="small">Inputs and selects have width: 100%; applied by default in Bootstrap. Within inline forms, we reset that to width: auto; </p>
+                                <p class="small">Inputs and selects have width: 100%; applied by default in Bootstrap. Within inline forms, we reset that to width: auto;</p>
                                 <button type="submit" class="btn btn-default btn-lg"> <span class="glyphicon glyphicon-plus"></span> Follow</button>
                             </div>
                             <div class="panel-footer text-center">
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        <h4>356 <br><small>Post</small></h4></div>
-                                    <div class="col-md-4">
-                                        <h4>3564 <br><small>Follower</small></h4></div>
-                                    <div class="col-md-4">
-                                        <h4>3564 <br><small>Following</small></h4></div>
+                                    <div class="col-xs-4">
+                                        <h4>356 <br><small>Post</small></h4>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <h4>3564 <br><small>Follower</small></h4>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <h4>3564 <br><small>Following</small></h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -402,17 +497,20 @@
 
                         <!--tabbed panel-->
 
-                        <div class="panel panel-default">
-                            <div class="panel-heading text-center" style="padding:0; border-bottom:0;">
-                                <ul class="nav nav-tabs nav-justified">
-                                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-                                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-                                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                        <div class="panel panel-blue tabbed-panel">
+                            <div class="panel-heading text-center">
+                                <ul class="nav nav-tabs nav-justified nav-tab-xs">
+                                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a>
+                                    </li>
+                                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a>
+                                    </li>
+                                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="panel-body">
 
-                                <div class="tab-content" style="padding:10px;">
+                                <div class="tab-content">
                                     <div role="tabpanel" class="tab-pane active" id="home">
                                         <div class="media">
                                             <div class="media-left">
@@ -422,7 +520,8 @@
                                             </div>
                                             <div class="media-body">
                                                 <strong>Cras sit amet nibh libero, in gravida nulla</strong>
-                                                <p class="small"> <span class="text-muted">4th July 2015</span> <span class="text-warning">20 comments</span></p>
+                                                <p class="small"> <span class="text-muted">4th July 2015</span>  <span class="text-warning">20 comments</span>
+                                                </p>
                                             </div>
                                         </div>
                                         <div class="media">
@@ -433,7 +532,8 @@
                                             </div>
                                             <div class="media-body">
                                                 <strong>Cras sit amet nibh libero, in gravida nulla</strong>
-                                                <p class="small"> <span class="text-muted">4th July 2015</span> <span class="text-warning">20 comments</span></p>
+                                                <p class="small"> <span class="text-muted">4th July 2015</span>  <span class="text-warning">20 comments</span>
+                                                </p>
                                             </div>
                                         </div>
                                         <div class="media">
@@ -444,7 +544,8 @@
                                             </div>
                                             <div class="media-body">
                                                 <strong>Cras sit amet nibh libero, in gravida nulla</strong>
-                                                <p class="small"> <span class="text-muted">4th July 2015</span> <span class="text-warning">20 comments</span></p>
+                                                <p class="small"> <span class="text-muted">4th July 2015</span>  <span class="text-warning">20 comments</span>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -457,7 +558,8 @@
                                             </div>
                                             <div class="media-body">
                                                 <strong>Cras sit amet nibh libero, in gravida nulla</strong>
-                                                <p class="small"> <span class="text-muted">4th July 2015</span> <span class="text-warning">20 comments</span></p>
+                                                <p class="small"> <span class="text-muted">4th July 2015</span>  <span class="text-warning">20 comments</span>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -470,7 +572,8 @@
                                             </div>
                                             <div class="media-body">
                                                 <strong>Cras sit amet nibh libero, in gravida nulla</strong>
-                                                <p class="small"> <span class="text-muted">4th July 2015</span> <span class="text-warning">20 comments</span></p>
+                                                <p class="small"> <span class="text-muted">4th July 2015</span>  <span class="text-warning">20 comments</span>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -486,19 +589,21 @@
 
 
                     <!--price panel-->
-                    <div class="col-md-4">
+                    <div class="col-md-4 price-panel basic-price">
 
 
                         <ul class="list-group text-center">
-                            <li class="list-group-item list-group-item-info active">Basic</li>
-                            <li class="list-group-item list-group-item-info">
-                                <h2 class="text-center"><span class="small">$</span>7.<span class="small">00</span></h2> </li>
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
-                            <li class="list-group-item">Morbi leo risus</li>
-                            <li class="list-group-item">Porta ac consectetur ac</li>
+                            <li class="list-group-item list-group-item-header">
+                                <h2>Basic</h2>
+                                <h2 class="text-center"><span class="small">$</span>7.<span class="small">00</span></h2> 
+                            </li>
+
+                            <li class="list-group-item small">Cras justo odio</li>
+                            <li class="list-group-item small">Dapibus ac facilisis in</li>
+                            <li class="list-group-item small">Morbi leo risus</li>
+                            <li class="list-group-item small">Porta ac consectetur ac</li>
                             <li class="list-group-item">
-                                <button type="submit" class="btn btn-default btn-block">Sign Up Now!</button>
+                                <button type="submit" class="btn btn-orange btn-block">Sign Up Now!</button>
                             </li>
                         </ul>
 
@@ -507,19 +612,20 @@
                     <!--price panel ENDS-->
 
                     <!--price panel-->
-                    <div class="col-md-4">
+                    <div class="col-md-4 price-panel premium-price">
 
 
                         <ul class="list-group text-center">
-                            <li class="list-group-item">Standard</li>
+                            <li class="list-group-item list-group-item-header">
+                                <h2>Premium</h2>
+                                <h2 class="text-center"><span class="small">$</span>9.<span class="small">00</span></h2> 
+                            </li>
+                            <li class="list-group-item small">Cras justo odio</li>
+                            <li class="list-group-item small">Dapibus ac facilisis in</li>
+                            <li class="list-group-item small">Morbi leo risus</li>
+                            <li class="list-group-item small">Porta ac consectetur ac</li>
                             <li class="list-group-item">
-                                <h2 class="text-center"><span class="small">$</span>9.<span class="small">00</span></h2> </li>
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
-                            <li class="list-group-item">Morbi leo risus</li>
-                            <li class="list-group-item">Porta ac consectetur ac</li>
-                            <li class="list-group-item">
-                                <button type="submit" class="btn btn-default btn-block">Sign Up Now!</button>
+                                <button type="submit" class="btn btn-orange btn-block">Sign Up Now!</button>
                             </li>
                         </ul>
 
@@ -528,30 +634,42 @@
                     <!--price panel ENDS-->
 
                     <!--price panel-->
-                    <div class="col-md-4">
+                    <div class="col-md-4 price-panel pro-price">
 
 
                         <ul class="list-group text-center">
-                            <li class="list-group-item">Pro</li>
+                            <li class="list-group-item list-group-item-header">
+                                <h2>Pro</h2>
+                                <h2 class="text-center"><span class="small">$</span>12.<span class="small">00</span></h2> 
+                            </li>
+                            </li>
+                            <li class="list-group-item small">Cras justo odio</li>
+                            <li class="list-group-item small">Dapibus ac facilisis in</li>
+                            <li class="list-group-item small">Morbi leo risus</li>
+                            <li class="list-group-item small">Porta ac consectetur ac</li>
                             <li class="list-group-item">
-                                <h2 class="text-center"><span class="small">$</span>10.<span class="small">00</span></h2> </li>
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
-                            <li class="list-group-item">Morbi leo risus</li>
-                            <li class="list-group-item">Porta ac consectetur ac</li>
-                            <li class="list-group-item">
-                                <button type="submit" class="btn btn-default btn-block">Sign Up Now!</button>
+                                <button type="submit" class="btn btn-orange btn-block">Sign Up Now!</button>
                             </li>
                         </ul>
 
 
                     </div>
                     <!--price panel ENDS-->
-
-
-
 
                 </div>
+                <!--breadcrumb start-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <ol class="breadcrumb">
+                            <li><a href="#">Home</a>
+                            </li>
+                            <li><a href="#">Library</a>
+                            </li>
+                            <li class="active">Data</li>
+                        </ol>
+                    </div>
+                </div>
+                <!--breadcrumb ends-->
             </div>
         </div>
         <!--UI blocks ENDS-->
